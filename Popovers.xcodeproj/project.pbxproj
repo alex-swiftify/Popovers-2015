@@ -7,15 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D2C323161BD34696006753F8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C323151BD34696006753F8 /* main.m */; };
-		D2C323191BD34696006753F8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C323181BD34696006753F8 /* AppDelegate.m */; };
-		D2C3231C1BD34696006753F8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3231B1BD34696006753F8 /* ViewController.m */; };
+		D2C323191BD34696006753F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C323181BD34696006753F8 /* AppDelegate.swift */; };
+		D2C3231C1BD34696006753F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C3231B1BD34696006753F8 /* ViewController.swift */; };
 		D2C3231F1BD34696006753F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C3231D1BD34696006753F8 /* Main.storyboard */; };
 		D2C323211BD34696006753F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C323201BD34696006753F8 /* Assets.xcassets */; };
 		D2C323241BD34696006753F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C323221BD34696006753F8 /* LaunchScreen.storyboard */; };
-		D2C3232F1BD34696006753F8 /* PopoversTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3232E1BD34696006753F8 /* PopoversTests.m */; };
-		D2C3233A1BD34696006753F8 /* PopoversUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C323391BD34696006753F8 /* PopoversUITests.m */; };
-		D2C323491BD349D3006753F8 /* PopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C323481BD349D3006753F8 /* PopViewController.m */; };
+		D2C3232F1BD34696006753F8 /* PopoversTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C3232E1BD34696006753F8 /* PopoversTests.swift */; };
+		D2C3233A1BD34696006753F8 /* PopoversUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C323391BD34696006753F8 /* PopoversUITests.swift */; };
+		D2C323491BD349D3006753F8 /* PopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C323481BD349D3006753F8 /* PopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,23 +36,19 @@
 
 /* Begin PBXFileReference section */
 		D2C323111BD34696006753F8 /* Popovers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Popovers.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C323151BD34696006753F8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D2C323171BD34696006753F8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D2C323181BD34696006753F8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D2C3231A1BD34696006753F8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D2C3231B1BD34696006753F8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D2C323181BD34696006753F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2C3231B1BD34696006753F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D2C3231E1BD34696006753F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2C323201BD34696006753F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C323231BD34696006753F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C323251BD34696006753F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C3232A1BD34696006753F8 /* PopoversTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoversTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C3232E1BD34696006753F8 /* PopoversTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoversTests.m; sourceTree = "<group>"; };
+		D2C3232E1BD34696006753F8 /* PopoversTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoversTests.swift; sourceTree = "<group>"; };
 		D2C323301BD34696006753F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C323351BD34696006753F8 /* PopoversUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopoversUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D2C323391BD34696006753F8 /* PopoversUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopoversUITests.m; sourceTree = "<group>"; };
+		D2C323391BD34696006753F8 /* PopoversUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopoversUITests.swift; sourceTree = "<group>"; };
 		D2C3233B1BD34696006753F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2C323471BD349D3006753F8 /* PopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopViewController.h; sourceTree = "<group>"; };
-		D2C323481BD349D3006753F8 /* PopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopViewController.m; sourceTree = "<group>"; };
+		D2C323481BD349D3006753F8 /* PopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +99,9 @@
 		D2C323131BD34696006753F8 /* Popovers */ = {
 			isa = PBXGroup;
 			children = (
-				D2C323171BD34696006753F8 /* AppDelegate.h */,
-				D2C323181BD34696006753F8 /* AppDelegate.m */,
-				D2C3231A1BD34696006753F8 /* ViewController.h */,
-				D2C3231B1BD34696006753F8 /* ViewController.m */,
-				D2C323471BD349D3006753F8 /* PopViewController.h */,
-				D2C323481BD349D3006753F8 /* PopViewController.m */,
+				D2C323181BD34696006753F8 /* AppDelegate.swift */,
+				D2C3231B1BD34696006753F8 /* ViewController.swift */,
+				D2C323481BD349D3006753F8 /* PopViewController.swift */,
 				D2C3231D1BD34696006753F8 /* Main.storyboard */,
 				D2C323201BD34696006753F8 /* Assets.xcassets */,
 				D2C323221BD34696006753F8 /* LaunchScreen.storyboard */,
@@ -122,7 +114,6 @@
 		D2C323141BD34696006753F8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				D2C323151BD34696006753F8 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -130,7 +121,7 @@
 		D2C3232D1BD34696006753F8 /* PopoversTests */ = {
 			isa = PBXGroup;
 			children = (
-				D2C3232E1BD34696006753F8 /* PopoversTests.m */,
+				D2C3232E1BD34696006753F8 /* PopoversTests.swift */,
 				D2C323301BD34696006753F8 /* Info.plist */,
 			);
 			path = PopoversTests;
@@ -139,7 +130,7 @@
 		D2C323381BD34696006753F8 /* PopoversUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D2C323391BD34696006753F8 /* PopoversUITests.m */,
+				D2C323391BD34696006753F8 /* PopoversUITests.swift */,
 				D2C3233B1BD34696006753F8 /* Info.plist */,
 			);
 			path = PopoversUITests;
@@ -275,10 +266,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C323491BD349D3006753F8 /* PopViewController.m in Sources */,
-				D2C3231C1BD34696006753F8 /* ViewController.m in Sources */,
-				D2C323191BD34696006753F8 /* AppDelegate.m in Sources */,
-				D2C323161BD34696006753F8 /* main.m in Sources */,
+				D2C323491BD349D3006753F8 /* PopViewController.swift in Sources */,
+				D2C3231C1BD34696006753F8 /* ViewController.swift in Sources */,
+				D2C323191BD34696006753F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +276,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C3232F1BD34696006753F8 /* PopoversTests.m in Sources */,
+				D2C3232F1BD34696006753F8 /* PopoversTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C3233A1BD34696006753F8 /* PopoversUITests.m in Sources */,
+				D2C3233A1BD34696006753F8 /* PopoversUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +412,8 @@
 				INFOPLIST_FILE = Popovers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.Popovers;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -433,6 +425,8 @@
 				INFOPLIST_FILE = Popovers/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.Popovers;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -444,6 +438,8 @@
 				INFOPLIST_FILE = PopoversTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.PopoversTests;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popovers.app/Popovers";
 			};
@@ -456,6 +452,8 @@
 				INFOPLIST_FILE = PopoversTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.PopoversTests;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Popovers.app/Popovers";
 			};
@@ -467,6 +465,8 @@
 				INFOPLIST_FILE = PopoversUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.PopoversUITests;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Popovers;
 				USES_XCTRUNNER = YES;
@@ -479,6 +479,8 @@
 				INFOPLIST_FILE = PopoversUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.versluis.PopoversUITests;
+																SWIFT_VERSION = 3.0;
+																SWIFT_SUPPRESS_WARNINGS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = Popovers;
 				USES_XCTRUNNER = YES;
