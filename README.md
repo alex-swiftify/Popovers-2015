@@ -1,4 +1,8 @@
-# Popovers in iOS 9
-Objective-C Project demonstrating how to use Popovers on iPad.
+# Popovers in iOS 9 (Swift version)
+This is a demo project converted from Objective-C to Swift using Swiftify [https://objectivec2swift.com/#/home/converter/project File and Project Conversion].
 
-I've explained this code here: http://pinkstone.co.uk/how-to-create-popovers-in-ios-9/
+Original Objective-C version: 
+https://github.com/versluis/Popovers-2015
+
+Original Objective-C article:
+http://pinkstone.co.uk/how-to-create-popovers-in-ios-9/
