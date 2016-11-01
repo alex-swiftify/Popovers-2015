@@ -31,7 +31,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
         var popController = controller.popoverPresentationController!
         popController.permittedArrowDirections = .any
         popController.barButtonItem = self.leftButton
-        popController.delegate! = self
+        popController.delegate = self
     }
 
     @IBAction func barButtonRight(_ sender: Any) {
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UIPopoverPresentationControllerDelegate 
             // configure the Popover presentation controller
         var popController = controller.popoverPresentationController!
         popController.permittedArrowDirections = .up
-        popController.delegate! = self
+        popController.delegate = self
         // in case we don't have a bar button as reference
         popController.sourceView = self.view
         popController.sourceRect = CGRect(x: 30, y: 50, width: 10, height: 10)
