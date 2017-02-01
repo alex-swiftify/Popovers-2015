@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  AppDelegate.swift
 //  Popovers
 //
 //  Created by Jay Versluis on 17/10/2015.
@@ -38,10 +38,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 }
-//
-//  AppDelegate.m
-//  Popovers
-//
-//  Created by Jay Versluis on 17/10/2015.
-//  Copyright © 2015 Pinkstone Pictures LLC. All rights reserved.
-//

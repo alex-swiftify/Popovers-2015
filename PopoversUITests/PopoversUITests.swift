@@ -1,5 +1,5 @@
 //
-//  PopoversUITests.m
+//  PopoversUITests.swift
 //  PopoversUITests
 //
 //  Created by Jay Versluis on 17/10/2015.
